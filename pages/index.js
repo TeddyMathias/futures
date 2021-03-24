@@ -11,12 +11,22 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div className="row">
+          <div className="col-12 black">
+              You're invited: Imagine the future with us.
+          </div>
+        </div>
         <h1 className={styles.title}>
-          Imagine the future with us!
+
         </h1>
 
         <p className={styles.description}>
-          Get started by editing
+        When was the last time you imagined the future you cannot live without? We hear a lot about vision boards for the year ahead, but what about 10 years ahead? Or 20?
+
+        “Remember to imagine and craft the worlds you cannot live without, just as you dismantle the ones you cannot live within.”
+        — Dr. Ruha Benjamin
+
+        We are harnessing our collective vision so that we can live into it, every day.
         </p>
 
         <div className={styles.grid}>
