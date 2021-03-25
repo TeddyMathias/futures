@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: blue;
+  background-color: #3FCEAA;
 }
 .sml-card {
   width: 22rem;
@@ -28,11 +28,23 @@ body {
   margin-left: 10px;
 }
 
-
 .videoask {
   position: fixed;
-  top:0;
+  bottom:0;
   left: 0;
-  height: 80vh;
+  height:100vh;
   width: 100vw;
 }
+
+.btn-primary {
+  color: #fff;
+  background-color: #FF6740;
+  border-color: #FF6740;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #E7606A;
+  border-color: #E7606A;
+}
+

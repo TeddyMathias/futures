@@ -4,7 +4,7 @@ import { Container, Row, Card, Button, Jumbotron } from 'react-bootstrap'
 export default function Home() {
   return (
     
-    <Container className="md-container my-5">
+    <Container className="md-container d-flex align-items-center vh-100">
       <Head>
         <title>Why imagine the future?</title>
         <link rel="icon" href="/favicon-32x32.png" />
