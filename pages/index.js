@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Fade from 'react-reveal/Fade';
 
 export default function Home() {
   return (
@@ -9,26 +10,28 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
+      
+      <main >
+        <div className="container">
         <div className="row">
-          <div className="col-12 black">
-              You're invited: Imagine the future with us.
+          <Fade>
+          <div className="col-12 text-center">
+              <h2>You're invited: Imagine the future with us.</h2>
+              <p className={styles.q}>Hi,
+                  When was the last time you imagined the future you cannot live without?<br/> We hear a lot about vision boards for the year ahead, but what about 10 years ahead? Or 20? <br/><br/>
+                  <span className={styles.quote}>“Remember to imagine and craft the worlds you cannot live without,<br/> just as you dismantle the ones you cannot live within.”
+                  — Dr. Ruha Benjamin<br/> </span>
+                  <br/>We are harnessing our collective vision so that we can live into it, every day. Won't you join us?
+              </p>
           </div>
+          </Fade>
         </div>
+      </div>
         <h1 className={styles.title}>
 
         </h1>
 
-        <p className={styles.description}>
-        When was the last time you imagined the future you cannot live without? We hear a lot about vision boards for the year ahead, but what about 10 years ahead? Or 20?
-
-        “Remember to imagine and craft the worlds you cannot live without, just as you dismantle the ones you cannot live within.”
-        — Dr. Ruha Benjamin
-
-        We are harnessing our collective vision so that we can live into it, every day.
-        </p>
-
+    
         <div className={styles.grid}>
           <Link href="/asks/f58y9ryge" >
             <a className={styles.card}>
@@ -61,12 +64,11 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Future Contexts
         </a>
       </footer>
     </div>
