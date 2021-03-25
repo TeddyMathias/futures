@@ -6,6 +6,9 @@
   padding-top: 2rem;
 }
 
+body {
+  background-color: blue;
+}
 .sml-card {
   width: 22rem;
   margin: 1rem 0;
@@ -23,4 +26,13 @@
 .sml-logo {
   height: 1em;
   margin-left: 10px;
+}
+
+
+.videoask {
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 80vh;
+  width: 100vw;
 }
