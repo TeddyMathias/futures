@@ -7,7 +7,7 @@ const Ask = () => {
   const { id } = router.query
 
   return (<div>
-    <Navbar fixed="top" bg="light">
+    <Navbar fixed="top" bg="transparent">
       <Link href="/asks">
         <Navbar.Brand href="/asks">&larr;</Navbar.Brand>
       </Link>

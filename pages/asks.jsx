@@ -5,7 +5,7 @@ import { Container, Row, Card, Button, Jumbotron, Navbar } from 'react-bootstrap
 export default function Asks() {
   return (
 
-    <Container className="md-container text-center  d-flex align-items-center vh-100">
+    <Container className="md-container text-center">
       <Head>
         <title>Why imagine the future?</title>
         <link rel="icon" href="people/p2.png" />
@@ -16,7 +16,7 @@ export default function Asks() {
         </Link>
       </Navbar>
       <Row className="justify-content-center">
-          <h3 className="text-light mb-4">Choose your guide for imagining the future.</h3>
+          <h3 className="text-light mt-2 mb-4">Choose your guide for imagining the future.</h3>
           <Card className="w-50 m-3">
             {/* <Card.Img variant="top" src="people/p2.png" /> */}
             <Card.Body>
