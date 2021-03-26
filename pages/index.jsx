@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import { Container, Row, Card, Button, Jumbotron } from 'react-bootstrap'
+import Link from 'next/link'
+import { Container, Row, Card, Button, Jumbotron, Navbar } from 'react-bootstrap'
 
 export default function Home() {
   return (
@@ -15,9 +16,10 @@ export default function Home() {
           When was the last time you imagined the future you cannot live without? We hear a lot about vision boards for the year ahead, but what about 10 years ahead? Or 20?
         </p>
         <p>
+          <Link href="/asks">
           <Button variant="primary" href="/asks">
             Go &rarr;
-                </Button>
+                </Button></Link>
         </p>
       </Jumbotron>
 

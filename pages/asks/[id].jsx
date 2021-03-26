@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
 import { Navbar } from 'react-bootstrap'
+import Link from 'next/link'
 
 const Ask = () => {
   const router = useRouter()
@@ -7,7 +8,9 @@ const Ask = () => {
 
   return (<div>
     <Navbar fixed="top" bg="light">
-      <Navbar.Brand href="/asks">Back</Navbar.Brand>
+      <Link href="/asks">
+        <Navbar.Brand href="/asks">&larr;</Navbar.Brand>
+      </Link>
     </Navbar>
     <iframe className="videoask" src={"https://www.videoask.com/" + id} allow="camera *; microphone *; autoplay *; encrypted-media *; fullscreen *; display-capture *;" />
   </div>
