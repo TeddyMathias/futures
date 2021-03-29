@@ -7,7 +7,7 @@ export default function Asks() {
 
     <Container className="md-container text-center">
       <Head>
-        <title>Why imagine the future?</title>
+        <title>VideoAsk Prototype</title>
         <link rel="icon" href="people/p2.png" />
       </Head>
       <Navbar fixed="top" bg="transparent">

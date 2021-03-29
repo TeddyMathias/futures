@@ -7,7 +7,7 @@ export default function Home() {
     
     <Container className="md-container d-flex align-items-center vh-100">
       <Head>
-        <title>Why imagine the future?</title>
+        <title>VideoAsk Prototype</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <Jumbotron>
