@@ -18,7 +18,7 @@ export default function Asks() {
       <Row className="justify-content-center"><h3 className="mt-2 mb-4 center-text">Choose an example...</h3></Row>
       <Row className="justify-content-center">
           
-          <Card className="w-50 m-3">
+          <Card className="w-75 m-3">
             {/* <Card.Img variant="top" src="people/p2.png" /> */}
             <Card.Body>
               <Card.Title>Visualization</Card.Title>
@@ -30,7 +30,7 @@ export default function Asks() {
               </Link>
             </Card.Body>
           </Card>
-          <Card className="w-50 m-3">
+          <Card className="w-75 m-3">
             {/* <Card.Img variant="top" src="people/p2.png" /> */}
             <Card.Body>
               <Card.Title>Short Prompts</Card.Title>
@@ -42,7 +42,7 @@ export default function Asks() {
               </Link>
             </Card.Body>
           </Card>
-          <Card className="w-50 m-3">
+          <Card className="w-75 m-3">
             {/* <Card.Img variant="top" src="people/p2.png" /> */}
             <Card.Body>
               <Card.Title>Interactive Videos</Card.Title>
