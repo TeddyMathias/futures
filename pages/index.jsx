@@ -11,9 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <Jumbotron>
-        <h1>Why imagine the future?</h1>
+        <h1>VideoAsk Prototype</h1>
         <p>
-          When was the last time you imagined the future you cannot live without? We hear a lot about vision boards for the year ahead, but what about 10 years ahead? Or 20?
+        🎥 🎤 ⌨️ <br></br>
+          This prototype allows users to respond to video prompts with their own video, audio, or text. Once users reply,
+          the facilitator can respond directly to the user to thank them or start a conversation. Choose an example on the next screen and send your replies.
         </p>
         <p>
           <Link href="/asks">

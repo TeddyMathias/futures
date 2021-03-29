@@ -15,16 +15,17 @@ export default function Asks() {
           <Navbar.Brand href="/asks">&larr;</Navbar.Brand>
         </Link>
       </Navbar>
+      <Row className="justify-content-center"><h3 className="mt-2 mb-4 center-text">Choose an example...</h3></Row>
       <Row className="justify-content-center">
-          <h3 className="text-light mt-2 mb-4">Choose your guide for imagining the future.</h3>
+          
           <Card className="w-50 m-3">
             {/* <Card.Img variant="top" src="people/p2.png" /> */}
             <Card.Body>
-              <Card.Title>Single Mom</Card.Title>
+              <Card.Title>Visualization</Card.Title>
               <Card.Text>
-                Lorem ipsum dolor lorem ipsum.
+                This is an example of a longer-form visualization exercise, followed by three prompts.
               </Card.Text>
-              <Link href="/asks/f8no4cfjr">
+              <Link href="/asks/fpcwdeowh">
               <Button variant="primary">Go &rarr;</Button>
               </Link>
             </Card.Body>
@@ -32,16 +33,29 @@ export default function Asks() {
           <Card className="w-50 m-3">
             {/* <Card.Img variant="top" src="people/p2.png" /> */}
             <Card.Body>
-              <Card.Title>Coffee Farmer</Card.Title>
+              <Card.Title>Short Prompts</Card.Title>
               <Card.Text>
-                Lorem ipsum dolor lorem ipsum.
+                This is an example of three short prompts, each with their own replies.
               </Card.Text>
-              <Link href="/asks/f58y9ryge">
+              <Link href="/asks/fe6u1erqo">
               <Button variant="primary">Go &rarr;</Button>
               </Link>
+            </Card.Body>
+          </Card>
+          <Card className="w-50 m-3">
+            {/* <Card.Img variant="top" src="people/p2.png" /> */}
+            <Card.Body>
+              <Card.Title>Interactive Videos</Card.Title>
+              <Card.Text>
+               Some examples of interactive videos made using VideoAsk. (Think Black Mirror's "Bandersnatch")
+              </Card.Text>
+              <a href="https://www.videoask.com/interactive-video" target="_blank">
+              <Button variant="primary">Go &rarr;</Button>
+              </a>
             </Card.Body>
           </Card>
           </Row>
     </Container>
+    
   )
 }
